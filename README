@@ -3,7 +3,7 @@
 Cam_sim can be used to simulate visuo-motor trajectories on a dataset recorded from the Sony LettuceThink micro-farming platform (http://romi-project.eu)
 The dataset can be downloaded from the following Zenodo repository: https://zenodo.org/record/3552827#.Xk2v4xNKiRs
 
-After cloning this github repository, create a folder within it called raw_images and extract the jpeg files contained in the zenodo zip archive.
+After cloning this github repository, create a folder within it called raw_images and extract the jpeg files contained in the zenodo zip archive (under the folder rgb_rectified).
 Then run:
 python cam_sim.py
 
