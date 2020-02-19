@@ -1,7 +1,13 @@
 ***How to use it***
 
-The cam_sim can be used to simulate visuo-motor trajectories in the image dataset can be found at the Zenodo repository 10.5281/zenodo.3552827
+The cam_sim can be used to simulate visuo-motor trajectories in the image dataset can be found at the Zenodo repository: https://zenodo.org/record/3552827#.Xk2v4xNKiRs
 
-Clone the repository and, within the generated directory, extract the dataset in a folder named raw_images. The script will create a python pkl compressed file. Use the Cam_sim python class and methods to generate simulated trajectories within this dataset.
+After cloning this repository, create a folder within it called raw_images where you extract the jpeg files contained in the zenodo zip archive.
+Run:
+python cam_sim.py
 
+to generate a pkl archive.
+Use cam_sim to generate simulated trajectories over the visuomotor dataset. 
 
+Dataset reference:
+Guido Schillaci, & Antonio Pico Villalpando. (2020). Visuo-motor dataset recorded from a micro-farming robot (Version 0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3552827
