@@ -1,6 +1,7 @@
 ***How to use it***
 
-Cam_sim can be used to simulate visuo-motor trajectories on a dataset that can be downloaded from the following Zenodo repository: https://zenodo.org/record/3552827#.Xk2v4xNKiRs
+Cam_sim can be used to simulate visuo-motor trajectories on a dataset recorded from the Sony LettuceThink micro-farming platform (http://romi-project.eu)
+The dataset can be downloaded from the following Zenodo repository: https://zenodo.org/record/3552827#.Xk2v4xNKiRs
 
 After cloning this github repository, create a folder within it called raw_images and extract the jpeg files contained in the zenodo zip archive.
 Then run:
@@ -13,3 +14,5 @@ See example.py for an simple test on how to generate trajectories
 
 Dataset reference:
 Guido Schillaci, & Antonio Pico Villalpando. (2020). Visuo-motor dataset recorded from a micro-farming robot (Version 0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3552827
+
+This work has received funding from the EU-H2020 project ROMI (Robotics for Micro-Farms) and from the EU-H2020 Marie Sklodowska-Curie Predictive Robots project.
